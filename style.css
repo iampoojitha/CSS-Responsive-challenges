@@ -1,0 +1,170 @@
+
+.div1 {
+    position: absolute;
+    top: 0;
+    left: 0; /* Optionally set left to 0 to ensure it's positioned at the left edge */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100px;
+    width: 100%;
+    background-color: grey;
+}
+.div2{
+    position: absolute;
+    top: 110px;
+    left: 0; /* Optionally set left to 0 to ensure it's positioned at the left edge */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height:250px;
+    width:1200px;
+    background-color: red;
+    color: black;
+}
+.div3{
+    position: absolute;
+    top: 360px;
+    left: 0; /* Optionally set left to 0 to ensure it's positioned at the left edge */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height:250px;
+    width:1200px;
+    background-color: rgb(238, 114, 5);
+    color: black;
+
+}
+.div4{
+    position: absolute;
+    top: 110px;
+    left: 1200px; /* Optionally set left to 0 to ensure it's positioned at the left edge */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height:500px;
+    width:350px;
+    background-color: rgb(217, 240, 41);
+    color: black;
+}
+.div5{
+    position: absolute;
+    top:620px;
+    bottom:0;
+    left: 0; /* Optionally set left to 0 to ensure it's positioned at the left edge */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100px;
+    width: 100%;
+    background-color: grey;
+
+}
+@media only screen and (max-width:1500px) and (min-width:500px){
+    /* Styles for small devices */
+    .div1 {
+        position: absolute;
+        top: 0;
+        left: 0; /* Optionally set left to 0 to ensure it's positioned at the left edge */
+        margin: 0;
+        padding: 0;
+        border: 0;
+        height: 100px;
+        width: 100%;
+        background-color: grey;
+    }
+    .div2{
+        position: absolute;
+        top: 110px;
+        left: 0; /* Optionally set left to 0 to ensure it's positioned at the left edge */
+        margin: 0;
+        padding: 0;
+        border: 0;
+        height:250px;
+        width:45%;
+        background-color: red;
+        color: black;
+    }
+    .div3{
+        position: absolute;
+        top: 360px;
+        left: 0; /* Optionally set left to 0 to ensure it's positioned at the left edge */
+        margin: 0;
+        padding: 0;
+        border: 0;
+        height:250px;
+        width:45%;
+        background-color: rgb(238, 114, 5);
+        color: black;
+    
+    }
+    .div4{
+        position: absolute;
+        top: 110px;
+        left:45%; /* Optionally set left to 0 to ensure it's positioned at the left edge */
+        margin: 0;
+        padding: 0;
+        border: 0;
+        height:500px;
+        width:55%;
+        background-color: rgb(217, 240, 41);
+        color: black;
+    }
+}
+    @media only screen and (max-width: 500px) {
+        /* Styles for large devices */
+        .div1 {
+            position: absolute;
+            top: 0;
+            left: 0; /* Optionally set left to 0 to ensure it's positioned at the left edge */
+            margin: 0;
+            padding: 0;
+            border: 0;
+            height: 100px;
+            width: 100%;
+            background-color: grey;
+        }
+        .div2{
+            position: absolute;
+            top: 110px;
+            left: 0; /* Optionally set left to 0 to ensure it's positioned at the left edge */
+            margin: 0;
+            padding: 0;
+            border: 0;
+            height:160px;
+            width:100%;
+            background-color: red;
+            color: black;
+        }
+        .div3{
+            position: absolute;
+            top: 270px;
+            left: 0; /* Optionally set left to 0 to ensure it's positioned at the left edge */
+            margin: 0;
+            padding: 0;
+            border: 0;
+            height:160px;
+            width:100%;
+            background-color: rgb(238, 114, 5);
+            color: black;
+        
+        }
+        .div4{
+            position: absolute;
+            top: 430px;
+            left:0; /* Optionally set left to 0 to ensure it's positioned at the left edge */
+            margin: 0;
+            padding: 0;
+            border: 0;
+            height:175px;
+            width:100%;
+            background-color: rgb(217, 240, 41);
+            color: black;
+        }
+
+
+      }
+      
+
+  
+  
